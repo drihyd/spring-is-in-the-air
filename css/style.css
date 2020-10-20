@@ -4924,7 +4924,10 @@ a.morelink:hover{
 
 
 
-
+.blog-post
+{
+	margin-bottom: 30px
+}
 .blog-detail h2
 {
 	margin-bottom: 20px
