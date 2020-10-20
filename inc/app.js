@@ -50,11 +50,10 @@ const Header = ({
 
                       <li class="link-amenities">
 
-<<<<<<< HEAD
+
                           <a href="./index.html#amenities">AMENITIES</a>
-=======
-                          <a href="index.html#amenities">AMENITIES</a>
->>>>>>> eae8cb14e68112402fd8e66936f8b35861ae247f
+                  <a href="index.html#amenities">AMENITIES</a>
+
 
                       </li>
 
