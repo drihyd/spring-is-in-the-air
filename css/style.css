@@ -3487,6 +3487,7 @@ footer a {
 	margin: 0px;
 
 	height: 45px;
+	background: #F7F5F1;
 
 	-moz-border-radius: 2px;
 
@@ -3508,6 +3509,10 @@ footer a {
 
 }
 
+
+.form-row h2{
+	font-family: "Roboto", sans-serif;
+}
 
 
 .form-group label.error,
@@ -4511,6 +4516,11 @@ a.morelink:hover{
 
 	.feedback-slider .item p {
 	    width: 65%;
+	    margin: auto;
+	}
+
+	.form-row form {
+	    width: 50%;
 	    margin: auto;
 	}
 }
