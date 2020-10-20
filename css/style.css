@@ -2419,6 +2419,7 @@ border: none;
 
 .view-floor-plan{
     color: #f98a00 !important;
+    text-decoration: underline;
 }
 
 @media(min-width: 767px){
