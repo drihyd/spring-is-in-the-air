@@ -33,7 +33,16 @@ const Header = ({
                       </li>
 
                       <li class="link-location">
+<<<<<<< HEAD
                           <a href="./index.html#location">LOCATION</a>
+=======
+
+
+                         
+
+                          <a href="index.html#location">LOCATION</a>
+
+>>>>>>> 6deaa2d878e080134505b6d3b722a44f43ce7743
 
                       </li>
 
@@ -45,7 +54,14 @@ const Header = ({
 
                       <li class="link-amenities">
 
+<<<<<<< HEAD
                           <a href="./index.html#amenities">AMENITIES</a>
+=======
+
+                          <a href="index.html#amenities">AMENITIES</a>
+                  
+
+>>>>>>> 6deaa2d878e080134505b6d3b722a44f43ce7743
 
                       </li>
 
@@ -114,6 +130,12 @@ const Footer = ({
             <a href="about.html">About</a>
 
             <a href="projects-in-hyderabad.html">Hyderabad Projects</a>
+<<<<<<< HEAD
+=======
+
+            <a href="">Hyderabad Projects</a>
+
+>>>>>>> 6deaa2d878e080134505b6d3b722a44f43ce7743
             <a href="projects-in-chennai.html">Chennai Projects</a>
           </div>
         </div>
