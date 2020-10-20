@@ -1317,6 +1317,10 @@ section {
 /*}*/
 
 
+.main-header.inner{
+	box-shadow: 0px -10px 12px 3px #5a5a5a !important;
+}
+
 
 .main-header.bg {
 
@@ -1352,6 +1356,12 @@ section {
 
 }
 
+
+@media(min-width: 1600px){
+	.main-header .main-logo img{
+		margin-left: 250% !important;
+	}
+}
 
 
 .main-header .main-logo img {
@@ -2686,7 +2696,7 @@ p.plus-icon{
 
 
 .floorplan-section.hero{
-	padding-top: 100px;
+	padding-top: 140px !important;
 }
 
 
