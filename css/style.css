@@ -2414,6 +2414,14 @@ border: none;
 }
 
 
+.text-right{
+	text-align: right;
+}
+
+.view-floor-plan{
+    color: #f98a00 !important;
+    text-decoration: underline;
+}
 
 @media(min-width: 767px){
 
@@ -4802,7 +4810,11 @@ a
     box-shadow: 0 0 5px rgba(0, 0, 0, .36);
 }
 .text-orange {
+<<<<<<< HEAD
+    color: #f98a00 !important;
+=======
     color: #F3873E
+>>>>>>> 9228d5b76a75b5c5050655bd3010343c3432cc2c
 }
 .team-para {
 
