@@ -2345,8 +2345,12 @@ border: none;
 	width: 33.3333%;
 
 	float: left;
-	min-height: 265px;
 
+}
+
+#internalviews .gallery-item{
+
+	min-height: 255px;
 }
 
 
@@ -2709,6 +2713,12 @@ p.plus-icon{
 	padding-top: 140px !important;
 }
 
+h5.title{
+	font-size: 25px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
 
 @media(max-width: 480px){
 
@@ -2718,7 +2728,7 @@ p.plus-icon{
 
     }
 
-    .gallery-item{
+    #internalviews .gallery-item{
     	min-height: initial;
     }
 
