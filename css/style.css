@@ -2363,9 +2363,9 @@ border: none;
 
 @media(max-width: 480px){
 
-	.gallery-section .nav-tabs{
+	.gallery-section .nav-tabs.hometabs{
 
-		width: initial;
+		width: 100%;
 
 		background: #ffffff59;
 
@@ -2383,9 +2383,10 @@ border: none;
 
 
 
-	.gallery-tabs.nav-tabs li{
+	.gallery-tabs.nav-tabs.hometabs li{
 
-		width: 50%;
+		width: 50% !important;
+		margin-bottom: initial !important;
 
 	}
 
