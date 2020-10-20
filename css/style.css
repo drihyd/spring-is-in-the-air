@@ -2413,6 +2413,14 @@ border: none;
 }
 
 
+.text-right{
+	text-align: right;
+}
+
+.view-floor-plan{
+    color: #f98a00 !important;
+    text-decoration: underline;
+}
 
 @media(min-width: 767px){
 
@@ -4772,7 +4780,7 @@ a.morelink:hover{
     box-shadow: 0 0 5px rgba(0, 0, 0, .36);
 }
 .text-orange {
-    color: #f98a00;
+    color: #f98a00 !important;
 }
 .team-para {
 
