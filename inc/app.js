@@ -10,7 +10,7 @@ const Header = ({
 
           <div class="col-xs-12">
 
-              <a href="./index.html" class="main-logo"><img src="./img/logo.png" alt="Spring in the Air"></a>
+              <a href="index.html" class="main-logo"><img src="./img/logo.png" alt="Spring in the Air"></a>
 
               <div id="menu-overlay" class="main-menu-toggle"></div>
 
@@ -34,7 +34,11 @@ const Header = ({
 
                       <li class="link-location">
 
+<<<<<<< HEAD
                           <a href="./index.html#location">LOCATION</a>
+=======
+                          <a href="index.html#location">LOCATION</a>
+>>>>>>> eae8cb14e68112402fd8e66936f8b35861ae247f
 
                       </li>
 
@@ -46,7 +50,11 @@ const Header = ({
 
                       <li class="link-amenities">
 
+<<<<<<< HEAD
                           <a href="./index.html#amenities">AMENITIES</a>
+=======
+                          <a href="index.html#amenities">AMENITIES</a>
+>>>>>>> eae8cb14e68112402fd8e66936f8b35861ae247f
 
                       </li>
 
@@ -114,7 +122,11 @@ const Footer = ({
           <div class="footer-wrapper">
             <h4>URBANRISE</h4>
             <a href="about.html">About</a>
+<<<<<<< HEAD
             <a href="projects-in-hyderabad.html">Hyderabad Projects</a>
+=======
+            <a href="">Hyderabad Projects</a>
+>>>>>>> eae8cb14e68112402fd8e66936f8b35861ae247f
             <a href="projects-in-chennai.html">Chennai Projects</a>
           </div>
         </div>
@@ -122,7 +134,7 @@ const Footer = ({
           <div class="footer-wrapper">
             <h4>CONTACT</h4>
             <p>Write to us:</p>
-            <a href="">connect@springisintheair.in</a>
+            <a href="mailto:connect@springisintheair.in">connect@springisintheair.in</a>
             <p>Call us:</p>
             <a href="tel:+91-(902)-214-5512">+91-(902)-214-5512</a>
             <p>Visit us:</p>
