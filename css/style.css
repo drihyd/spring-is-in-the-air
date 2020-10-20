@@ -359,7 +359,7 @@ p {
 
 	margin-bottom: 15px;
 
-	font-size: 14px;
+	font-size: 15px;
 
 	line-height: 24px;
 
@@ -727,7 +727,7 @@ section {
 
 .margin-top-15 {
 
-	margin-top: 15px
+	margin-top: 15px !important
 
 }
 
@@ -4462,6 +4462,147 @@ a.morelink:hover{
 
 }
 
+
+
+/*projects css begin*/
+
+@media (min-width: 768px){
+	.projects-slider {
+    	margin: auto;
+    	text-align: center;
+	}
+
+	.projects-slider .item {
+	    margin-bottom: 18px;
+	    width: 32.4%;
+	    display: inline-block;
+	}
+
+	.projects-slider .item .card, .projects-slider-citywise .item .card {
+    	border: 0px !important;
+    	padding-bottom: 15px;
+    	margin: 0px 5px;
+	}
+
+	.projects-slider .card-img-top {
+    	filter: grayscale(1);
+	}
+
+	.projects-slider .card:hover .overlay-container h4, .projects-slider-citywise .card:hover .overlay-container h4 {
+	    background-color: #000 !important;
+	    color: #fff!important;
+	    -webkit-text-fill-color: #fff !important;
+	    border-left: 12px solid #fab83e;
+	}
+
+	.projects-slider .card-img-top:hover, .projects-slider-citywise .card-img-top:hover {
+	    filter: grayscale(0) !important;
+	    transition: all .5s ease-in-out;
+	    box-shadow: 0 0 5px rgba(0, 0, 0, .46);
+	}
+
+	.price {
+	    margin-top: initial;
+	    background: #fff;
+	    padding: 5px 10px;
+	    -webkit-text-fill-color: #000;
+	    margin: 0px 10px;
+	}
+
+	.feedback-slider .item p {
+	    width: 65%;
+	    margin: auto;
+	}
+}
+
+
+@media (min-width: 992px){
+	.desktop-only {
+	    display: block;
+	}
+
+	.mobile-only {
+    	display: none;
+	}
+}
+
+.projects-slider .item .card {
+    border: 0px !important;
+    position: relative;
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.overlay-container h4, .overlay-container p {
+    width: 100%;
+    transition: all .5s ease-in-out;
+    padding: 0;
+    margin: 0;
+    color: #000 !important;
+    -webkit-text-fill-color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    background: #000;
+    padding: 6px 0px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+    border-left: 12px solid #fab83e;
+    text-align: left;
+    background-color: #fab83e;
+}
+
+
+.card-body {
+    text-align: left;
+}
+
+.card-body {
+    background-color: #f4f4f4;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+}
+
+.feedback-slider .item img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    border-radius: 4px;
+}
+
+
+@media (max-width: 767px){
+	.projects-slider .item .card {
+	    padding: 0px;
+	    margin-right: 10%;
+	}
+	.desktop-only {
+	    display: none;
+	}
+
+	
+}
+
+@media (max-width: 480px){
+	.card-body{
+		min-height: 186px;
+	}
+}
+
+@media (max-width: 380px){
+	.card-body{
+		min-height: 210px;
+	}
+}
+
+/*projects css end*/
 
 
 /*slider css : BEGIN*/
