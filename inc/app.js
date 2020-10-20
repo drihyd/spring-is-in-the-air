@@ -10,7 +10,7 @@ const Header = ({
 
           <div class="col-xs-12">
 
-              <a href="./index.html" class="main-logo"><img src="./img/logo.png" alt="Spring in the Air"></a>
+              <a href="index.html" class="main-logo"><img src="./img/logo.png" alt="Spring in the Air"></a>
 
               <div id="menu-overlay" class="main-menu-toggle"></div>
 
