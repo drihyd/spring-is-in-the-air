@@ -94,7 +94,7 @@ h6 {
 
 	font-family: 'Poppins', sans-serif;
 
-	color: #202A61;
+	color: #000;
 
 	font-weight: normal;
 
@@ -180,7 +180,7 @@ h5,
 
 h6 {
 
-	color: #EDBF5D
+	
 
 }
 
@@ -302,7 +302,8 @@ h3 {
 
 	padding-top: 6px;
 
-	margin-bottom: 16px
+	margin-bottom: 16px;
+	font-weight: 500
 
 }
 
@@ -4725,6 +4726,11 @@ a.morelink:hover{
 
 
 /*slider css : END*/
+.blog-detail-img
+{
+	margin: 25px 0; 
+	width: 80%
+}
 .blog-date
 {
 	border: 1px solid #F3873E;
@@ -4733,7 +4739,7 @@ a.morelink:hover{
     border-radius: 0;
     width: max-content;
     padding: 7px 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-bottom: 5px;
     text-transform: uppercase;
 }
