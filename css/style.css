@@ -4715,3 +4715,154 @@ a.morelink:hover{
 
 
 /*slider css : END*/
+@media only screen and (min-width:767px) and (max-width:992px)
+{
+    .bgblack {
+    
+    height: 491px;
+}}
+@media only screen and (min-width:992px) and (max-width:1199px)
+{
+    .bgblack {
+    
+    height: 420px !important;
+}
+}
+
+#our-vision-mission
+{
+    padding-top:30px;
+}
+.teammodal .close {
+    
+    z-index: 999;
+    position: relative;
+}
+.popup-heading
+{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+@media (min-width: 768px){
+.teammodal {
+    width: 1000px;
+}}
+.team-card:hover .teamimg
+{
+     filter: grayscale(0);
+}
+.teamimg {
+    filter: grayscale(1);
+}
+.team-card:hover {
+    cursor: pointer;
+}
+.team-card img:hover {
+    transition: all .5s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .36);
+}
+.text-orange {
+    color: #f98a00;
+}
+.team-para {
+
+	line-height: 20px;
+    margin-bottom:0px;
+	min-height: 20px;
+    margin-top:30px;
+	font-size: 16px
+
+}
+.our-awards .slick-slide :hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+}
+.our-awards .slick-slide img {
+    transition: all .5s ease-in-out;
+   width:80%;
+   margin:auto;
+}
+.slick-dots li.slick-active button:before, .slick-dots li.slick-active button::before {
+    background: #fab83e;
+   
+}
+.about-us
+{
+margin-top:70px;
+}
+.our-vision {
+padding: 15px 30px;
+}
+.bgyellow, .bgyellow p, .bgyellow ul li{
+    background-color: #fab83e;
+    color: #000;
+    font-weight:400;
+}
+.bgblack {
+    background-color: #000;
+    color: #fff;
+    height:372px;
+}
+.bgblack h2 {
+    color: #fff;
+}
+.our_mission_section
+{
+    margin-top:16px;
+}
+.our-vision ul
+{
+    padding-left:12px;
+}
+ul li
+{
+    font-weight:400;
+}
+.mobile-only
+    {
+        display:none !important;
+    }
+@media only screen and (max-width:480px)
+{
+    .team-card {
+    margin-bottom: 30px !important;
+}
+    .our_vision_section
+    {
+        margin-top:20px;
+    }
+    .mobile-only
+    {
+        display:block !important;
+    }
+    .our_values_section {
+    margin: 15px;
+}
+.our_values_section {
+    background-color: #fab83e;
+    color:#000;
+}
+.our_values_section h2, .our_values_section ul li {
+    color: #000;
+}
+
+.gallery-tabs.nav-tabs li {
+    width: auto;
+    margin-bottom:20px;
+    border-bottom:0px;
+}
+
+
+
+.gallery-tabs {
+    border-bottom: 0px solid #ddd;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+.our-awards
+{
+    margin-top:30px;
+}
