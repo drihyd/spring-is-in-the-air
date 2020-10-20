@@ -531,7 +531,7 @@ p.large{
 
 section {
 
-	padding: 70px 0px;
+	padding: 60px 0px;
 
 	overflow: hidden
 
@@ -1304,6 +1304,8 @@ section {
 	-webkit-transition: all .1s ease-in-out;
 
 	transition: all .1s ease-in-out;
+	box-shadow: 0px -6px 12px 3px #5a5a5a !important;
+    background: #fff !important;
 
 }
 
@@ -4745,6 +4747,14 @@ a.morelink:hover{
 
 
 /*slider css : END*/
+.blog-detail h2
+{
+	margin-bottom: 20px
+}
+.blog-detail ul
+{
+padding-left: 12px
+}
 .blog-detail-img
 {
 	margin: 25px 0; 
@@ -4821,11 +4831,10 @@ a
     box-shadow: 0 0 5px rgba(0, 0, 0, .36);
 }
 .text-orange {
-<<<<<<< HEAD
-    color: #f98a00 !important;
-=======
+
+    
     color: #F3873E
->>>>>>> 9228d5b76a75b5c5050655bd3010343c3432cc2c
+
 }
 .team-para {
 
@@ -4904,6 +4913,7 @@ ul li
 .our_values_section {
     background-color: #fab83e;
     color:#000;
+    height: 100% !important
 }
 .our_values_section h2, .our_values_section ul li {
     color: #000;
