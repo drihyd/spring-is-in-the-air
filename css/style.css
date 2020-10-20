@@ -4741,7 +4741,27 @@ a.morelink:hover{
 	height: 12px
 
 }
-
+.manhattan-list 
+{
+	list-style: none;
+	padding-left: 0px
+}
+.manhattan-list li
+{
+	margin-bottom: 5px
+}
+.manhattan-list  li:before {
+  content: '✓';
+    color: #fff;
+    list-style: none;
+    position: absolute;
+    left: 0%;
+    margin-right: 10px;
+    background-color: #F3873E;
+    padding: 4px;
+    /* margin-bottom: 35px; */
+    font-size: 12px;
+    position: relative;}
 
 
 
