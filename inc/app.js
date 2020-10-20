@@ -34,11 +34,11 @@ const Header = ({
 
                       <li class="link-location">
 
-<<<<<<< HEAD
+
                           <a href="./index.html#location">LOCATION</a>
-=======
+
                           <a href="index.html#location">LOCATION</a>
->>>>>>> eae8cb14e68112402fd8e66936f8b35861ae247f
+
 
                       </li>
 
