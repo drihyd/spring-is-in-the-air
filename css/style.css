@@ -4891,7 +4891,12 @@ a.morelink:hover{
 {
 	margin-bottom:8px
 }
-.manhattan-list  li:before {
+
+.list-content li{
+	position: relative;
+}
+
+.list-content li:before {
   content: '✓';
     color: #fff;
     list-style: none;
@@ -4899,7 +4904,7 @@ a.morelink:hover{
     left: 0%;
     margin-right: 10px;
     background-color: #F3873E;
-    padding: 5px 8px;
+    padding: 3px 5px;
     /* margin-bottom: 35px; */
     font-size: 12px;
     position: relative;}
