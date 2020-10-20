@@ -4734,6 +4734,14 @@ a.morelink:hover{
 
 
 /*slider css : END*/
+.blog-detail h2
+{
+	margin-bottom: 20px
+}
+.blog-detail ul
+{
+padding-left: 12px
+}
 .blog-detail-img
 {
 	margin: 25px 0; 
@@ -4810,11 +4818,10 @@ a
     box-shadow: 0 0 5px rgba(0, 0, 0, .36);
 }
 .text-orange {
-<<<<<<< HEAD
-    color: #f98a00 !important;
-=======
+
+    
     color: #F3873E
->>>>>>> 9228d5b76a75b5c5050655bd3010343c3432cc2c
+
 }
 .team-para {
 
