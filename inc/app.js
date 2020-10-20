@@ -35,7 +35,7 @@ const Header = ({
                       <li class="link-location">
 
 
-                          <a href="./index.html#location">LOCATION</a>
+                         
 
                           <a href="index.html#location">LOCATION</a>
 
