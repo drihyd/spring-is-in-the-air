@@ -2178,10 +2178,9 @@ p.sub-text{
 .manhattan-list li{
 
 	font-weight: 600;
-
-	color: #000;
-
-	text-decoration: none;
+    color: #000;
+    text-decoration: none;
+    padding-left: 25px;
 
 }
 
@@ -2738,8 +2737,17 @@ h5.title{
 
     .project-item-wrapper h3{
 
-        font-size: 17px;
+        font-size: 16px;
+        color: #fff;
+    text-align: center;
+    margin-top: 23%;
+    text-transform: uppercase;
+    margin-bottom: 0px;
 
+    }
+    .project-item-wrapper
+    {
+    	margin:10px;
     }
 
     p.plus-icon{
@@ -4897,17 +4905,21 @@ a.morelink:hover{
 }
 
 .list-content li:before {
-  content: '✓';
+ content: '✓';
     color: #fff;
     list-style: none;
     position: absolute;
     left: 0%;
     margin-right: 10px;
     background-color: #F3873E;
-    padding: 3px 5px;
+    padding:0px 5px;
     /* margin-bottom: 35px; */
     font-size: 12px;
-    position: relative;}
+    position: absolute;
+    /* right: 22px; */
+    margin-right: 39px;
+    /* padding-right: 10px;
+    }
 
 
 
