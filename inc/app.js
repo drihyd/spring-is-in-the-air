@@ -34,7 +34,7 @@ const Header = ({
 
                       <li class="link-location">
 
-                          <a href="#location">LOCATION</a>
+                          <a href="index.html#location">LOCATION</a>
 
                       </li>
 
@@ -46,7 +46,7 @@ const Header = ({
 
                       <li class="link-amenities">
 
-                          <a href="#amenities">AMENITIES</a>
+                          <a href="index.html#amenities">AMENITIES</a>
 
                       </li>
 
@@ -105,24 +105,24 @@ const Footer = ({
         <div class="footer-item">
           <div class="footer-wrapper">
             <h4>OTHER LINKS</h4>
-            <a href="">Blogs</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Terms & Conditions</a>
+            <a href="blog.html">Blogs</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-and-conditions.html">Terms & Conditions</a>
           </div>
         </div>
         <div class="footer-item">
           <div class="footer-wrapper">
             <h4>URBANRISE</h4>
-            <a href="">About</a>
+            <a href="about.html">About</a>
             <a href="">Hyderabad Projects</a>
-            <a href="">Chennai Projects</a>
+            <a href="projects-in-chennai.html">Chennai Projects</a>
           </div>
         </div>
         <div class="footer-item">
           <div class="footer-wrapper">
             <h4>CONTACT</h4>
             <p>Write to us:</p>
-            <a href="">connect@springisintheair.in</a>
+            <a href="mailto:connect@springisintheair.in">connect@springisintheair.in</a>
             <p>Call us:</p>
             <a href="tel:+91-(902)-214-5512">+91-(902)-214-5512</a>
             <p>Visit us:</p>
