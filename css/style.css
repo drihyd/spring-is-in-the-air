@@ -332,7 +332,7 @@ h5 {
 
 	padding-top: 8px;
 
-	margin-bottom: 22px
+	margin-bottom: 10px
 
 }
 
@@ -2419,7 +2419,6 @@ border: none;
 
 .view-floor-plan{
     color: #f98a00 !important;
-    text-decoration: underline;
 }
 
 @media(min-width: 767px){
@@ -2450,7 +2449,7 @@ border: none;
 
 .card-body {
 
-    background-color: #f4f4f4;
+    background-color: #f7f5f1;
 
     text-align: left;
 
@@ -4733,6 +4732,30 @@ a.morelink:hover{
 
 
 /*slider css : END*/
+.blog-date
+{
+	border: 1px solid #F3873E;
+    background: #F3873E;
+    color: #fff;
+    border-radius: 0;
+    width: max-content;
+    padding: 7px 10px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+h5
+{
+	color: #F3873E
+}
+.published-by
+{
+	text-transform: uppercase;
+}
+a
+{
+	text-decoration: none !important
+}
 @media only screen and (min-width:767px) and (max-width:992px)
 {
     .bgblack {
@@ -4780,7 +4803,11 @@ a.morelink:hover{
     box-shadow: 0 0 5px rgba(0, 0, 0, .36);
 }
 .text-orange {
+<<<<<<< HEAD
     color: #f98a00 !important;
+=======
+    color: #F3873E
+>>>>>>> 9228d5b76a75b5c5050655bd3010343c3432cc2c
 }
 .team-para {
 
@@ -4884,3 +4911,4 @@ ul li
 {
     margin-top:30px;
 }
+
