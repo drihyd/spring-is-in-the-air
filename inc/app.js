@@ -121,11 +121,11 @@ const Footer = ({
           <div class="footer-wrapper">
             <h4>URBANRISE</h4>
             <a href="about.html">About</a>
-<<<<<<< HEAD
+
             <a href="projects-in-hyderabad.html">Hyderabad Projects</a>
-=======
+
             <a href="">Hyderabad Projects</a>
->>>>>>> eae8cb14e68112402fd8e66936f8b35861ae247f
+
             <a href="projects-in-chennai.html">Chennai Projects</a>
           </div>
         </div>
