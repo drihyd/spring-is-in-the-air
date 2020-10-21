@@ -1371,6 +1371,14 @@ section {
 	.main-header .main-logo img{
 		margin-left: 250% !important;
 	}
+
+	.main-header .main-menu-items{
+		padding-right: 20% !important;
+	}
+
+	.contact-info{
+		right: 21% !important;
+	}
 }
 
 
@@ -2274,7 +2282,7 @@ p.sub-text{
 
 .gallery-section .nav-tabs{
 
-	width: 50%;
+	width: 38%;
 
     margin: 30px auto;
 
@@ -2342,7 +2350,7 @@ p.sub-text{
 
 background: none;
 
-border: none;
+border-color: transparent;
 
 }
 
@@ -4553,6 +4561,13 @@ a.morelink:hover{
 	    width: 50%;
 	    margin: auto;
 	}
+
+	.floorplan-section .projects-slider{
+		margin: initial;
+		text-align: left;
+	}
+
+
 }
 
 
@@ -4625,6 +4640,10 @@ a.morelink:hover{
 	}
 	.desktop-only {
 	    display: none;
+	}
+
+	.floorplan-section .slick-slide img{
+		display: inline-block;
 	}
 
 	

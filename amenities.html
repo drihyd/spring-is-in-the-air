@@ -105,7 +105,7 @@
 
                     <li><a data-toggle="tab" href="#internalviews">Internal Views</a></li>
 
-                    <li class="last"><a data-toggle="tab" href="#masterplan">Master Plan</a></li>
+                    <!-- <li class="last"><a data-toggle="tab" href="#masterplan">Master Plan</a></li> -->
 
                 </ul>
 
@@ -323,7 +323,7 @@
 
                     </div>
 
-                    <div id="masterplan" class="tab-pane fade">
+                    <!-- <div id="masterplan" class="tab-pane fade">
 
                         <div class="">
 
@@ -337,7 +337,7 @@
 
                     </div>
 
-                </div>
+                </div> -->
 
 				
 
@@ -396,5 +396,35 @@
 	<script src="./js/simple-lightbox.js?v=1.0"></script>
 	 <script type="text/javascript" src="./inc/app.js?v=1.4"></script>
 </body>
+
+<script>
+
+       
+
+        $(function(){
+
+      		// var $gallery = $('.galleryimg a').simpleLightbox();
+
+
+      		$('#projectviews .gallery-item a').simpleLightbox();
+
+      		$('#club .gallery-item a').simpleLightbox();
+
+      		$('#learninghub .gallery-item a').simpleLightbox({
+             // captionType 'attr',
+             captions: true,
+             captionSelector: 'self',
+             captionsData: 'title',
+           });
+
+      		$('#internalviews .gallery-item a').simpleLightbox();
+
+      		$('#masterplan .gallery-item a').simpleLightbox();
+
+      	});
+
+      	
+
+      	</script>
 
 </html>
