@@ -2372,6 +2372,9 @@ border: none;
 
 
 @media(max-width: 480px){
+	.projects-slider .slick-list {
+    padding-left: 0px !important;
+}
 
 	.our-vision-tabs li
 	{
