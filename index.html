@@ -511,9 +511,9 @@
                   <h2>Floor Plans</h2>
                   <ul class=" gallery-tabs floorplan-tabs nav nav-tabs hometabs">
 
-                    <li class="active"><a data-toggle="tab" href="#2bhk">2 BHK</a></li>
+                    <li class="active"><a data-toggle="tab" href="#2bhk" id="2_bhk">2 BHK</a></li>
 
-                    <li><a data-toggle="tab" href="#3bhk">3 BHK</a></li>
+                    <li><a data-toggle="tab" href="#3bhk" id="3_bhk">3 BHK</a></li>
 
                 </ul>
                   <div class="tab-content floorplanslider ">
@@ -1025,7 +1025,17 @@
 
 <script>
 
-       
+       $("#2_bhk").click(function(){
+
+         $('.projects-slider').slick('refresh')
+         });
+         $("#3_bhk").click(function(){
+         
+         $('.projects-slider').slick('refresh')
+         });
+         $("#1_bhk").click(function(){
+         $('.projects-slider').slick('refresh')
+         });
 
         $(function(){
 
