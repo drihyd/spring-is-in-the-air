@@ -2377,9 +2377,28 @@ border-color: transparent;
 
 }
 
+.mb-0
+{
+	margin-bottom: 0px
+}
 
-
+table tr td
+{
+	font-weight: 500
+}
 @media(max-width: 480px){
+	.card-body {
+    min-height: auto !important;
+}
+	.projects-slider .card-body
+	{
+padding: .80rem;
+font-size: 12px
+	}
+	.floor_plan_table
+	{
+		margin-bottom: 0px
+	}
 	.projects-slider .slick-list {
     padding-left: 0px !important;
 }
